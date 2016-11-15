@@ -2,8 +2,8 @@ public class myexp{
 	public static double main (int x, int n) {
 		double Ergebnis = 0;
 		
-		if(n<1){
-			System.out.println("Geben Sie eine Zahl ein die Grösser als 1 ist");
+		if(n<0){
+			System.out.println("Geben Sie eine Zahl ein, die Grösser als 0 ist");
 		}
 		else{
 			for(int i=1;i<=n-1; i++){
