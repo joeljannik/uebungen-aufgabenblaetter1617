@@ -1,18 +1,40 @@
 class Rational {
+
+	private static double zähler;
+	private static double nenner;
 	
-	private double zähler;
-	private double nenner;
-	
-	public Rational(){
+	Rational(){
 		this.zähler = 0;
 		this.nenner = 1;	
 	}
 	
-	public double whatZähler(){
+	double setZähler(double x){
+		return this.zähler = x;
+	}
+	double setNenner(double y){
+		 return this.nenner = y;
+	}
+	double getZähler(){
 		return zähler;
 	}
 	
-	public double whatNenner(){
+	double getNenner(){
 		return nenner;
 	}
+	
+	double negate(double ergebnis){
+		double ergebnisNegate;
+		return ergebnisNegate = ergebnis * -1;
+	}
+	
+	double invert(double zähler, double nenner){
+		double ergebnisInvert;
+		return ergebnisInvert = nenner / zähler;
+	}
+	
+	double add(double rational_1, double ergebnis ){
+		double ergebnisAdd;
+		return ergebnisAdd = rational_1 + ergebnis;
+	}
+	
 }
