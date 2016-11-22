@@ -1,3 +1,5 @@
+package Hausaufgabe_3;
+
 class Rational {
 
 	private static double zähler;

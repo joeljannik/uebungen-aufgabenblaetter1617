@@ -1,3 +1,5 @@
+package Hausaufgabe_3;
+
 class printRational {
 	public static void main(String[] args){
 		
